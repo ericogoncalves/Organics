@@ -1,11 +1,10 @@
 {
   "expo": {
     "name": "Orgs",
-    "slug": "orgs-cesta",
+    "slug": "organics",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -18,16 +17,27 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "com.goncalves.orgs",
+      "buildNumber": "1.0.0"
     },
     "android": {
       "adaptiveIcon": {
+        "package": "com.goncalves.orgs",
+        "versionCode": 1,
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.goncalves.orgs"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "",
+    "extra": {
+      "eas": {
+        "projectId": "b6f50238-188b-4c2e-b7e9-58128587e708"
+      }
+    },
+    "owner": "hamazakii"
   }
 }
